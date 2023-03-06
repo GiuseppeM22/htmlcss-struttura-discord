@@ -12,9 +12,10 @@ header{
 
 .flexContainer{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
+    width: 100%;
 
 }
 
@@ -25,6 +26,11 @@ header{
     width: 80%;
     margin: auto;
     margin-top: 1em;
+}
+
+#dashedlogo{
+    border: 1px dashed black;
+    width: calc(100% / 3);
 }
 
 .secondconteiner{
@@ -41,6 +47,7 @@ header{
     background-color: #ee82ee;
     width: 60%;
     height: 150px;
+    border: 1px dashed black;
 }
 
 
@@ -58,12 +65,14 @@ header{
     width: 50%;
     min-height: 200px;
     background-color: #1e90ff;
+    border: 1px dashed black;
 }
 
 .secondmc{
     width: 30%;
     min-height: 200px;
     background-color: #ffc0cb;
+    border: 1px dashed black;
 }
 
 .flexmainContainer_2{
@@ -80,6 +89,7 @@ header{
     background-color: #228b22;
     min-height: 350px;
     width: 80%;
+    border: 1px dashed black;
 }
 
 .firstfooter{
