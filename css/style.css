@@ -44,7 +44,7 @@ header{
 }
 
 
-.flexmainContainer{
+.boxed{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,4 +64,20 @@ header{
     width: 30%;
     min-height: 200px;
     background-color: #ffc0cb;
+}
+
+.flexmainContainer_2{
+    flex-direction: row-reverse;
+    background-color: #d3d3d3;
+    
+}
+
+.lastmaincontainer{
+    background-color: #d3d3d3;
+}
+
+.lastson{
+    background-color: #228b22;
+    min-height: 350px;
+    width: 80%;
 }
