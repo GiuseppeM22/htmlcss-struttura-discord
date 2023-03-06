@@ -81,3 +81,39 @@ header{
     min-height: 350px;
     width: 80%;
 }
+
+.firstfooter{
+    background-color: #23272a;
+    padding-top: 0.5em;
+
+}
+
+.leftcontainer{
+    min-height: 250px;
+    width: calc(80% / 3 * 1);
+    background-color: #f08080;
+}
+
+.rightcontainer{
+    min-height: 250px;
+    width: calc(80% / 3 * 2);
+    background-color: #20b2aa;
+    display: flex;
+}
+
+#dashed{
+    border: 1px dashed white;
+    width: calc(100% / 4);
+}
+
+.secondfooter{
+    background-color: #23272a;
+    margin-top: 2px;
+    padding-bottom: 0;
+}
+
+.lastlink{
+    background-color: #7fffd4;
+    width: 80%;
+    padding: 2em;
+}
